@@ -1,0 +1,2 @@
+userId,userName,fullName,imageUrl,bio,email,latitude,longitude,userInterestProfiles
+gcIPbK6kb1T5qEVVzN2xUlkhiL53,tuan1062001,Tuân Pham10,https://firebasestorage.googleapis.com/v0/b/social-app-5e237.appspot.com/o/uploads%2F1697821130380.jpg?alt=media&token=beee1075-59d4-4e8c-811a-459020f297db,hello there..aaa,tuanprokt44@gmail.com,20.981002135154935,105.78731967456642,"[{'id': 26, 'tourInterest': {'id': 1, 'name': 'Du lịch biển'}}, {'id': 27, 'tourInterest': {'id': 2, 'name': 'Thám hiểm rừng núi'}}, {'id': 28, 'tourInterest': {'id': 5, 'name': 'Thiên nhiên và cảnh đẹp'}}]"
