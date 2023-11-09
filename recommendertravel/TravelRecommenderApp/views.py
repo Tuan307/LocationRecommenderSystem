@@ -63,9 +63,10 @@ def recommend_cities(user_data, city_data):
         recommended_cities.append({
             'city_id': city['cityId'],
             'city_name': city['cityName'],
+            'image_url': city['cityImages'],
             'description': city['description'],
             'tag': city['tag'],
-            'similarity_score': score
+            'similarity_score': str(score)
         })
 
     return recommended_cities
