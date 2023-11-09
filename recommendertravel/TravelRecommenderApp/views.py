@@ -6,9 +6,9 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from sklearn.metrics.pairwise import cosine_similarity
-def get_user_data():
+def get_user_data(userId):
     # Gọi API lấy thông tin user
-    user_api_url = 'http://127.0.0.1:8080/api/v1/users/gcIPbK6kb1T5qEVVzN2xUlkhiL53'
+    user_api_url = 'http://127.0.0.1:8080/api/v1/users/'+userId
     response = requests.get(user_api_url).json()
 
     return response['data'] if 'data' in response else None
@@ -70,8 +70,8 @@ def recommend_cities(user_data, city_data):
 
     return recommended_cities
 
-def recommendation(request):
-    user_data = get_user_data()
+def recommendation(request,userId):
+    user_data = get_user_data(userId)
     city_data = get_travel_data()
 
     if user_data and city_data:
