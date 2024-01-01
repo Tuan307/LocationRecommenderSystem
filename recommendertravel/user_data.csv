@@ -1,2 +1,26 @@
-userId,userName,fullName,imageUrl,bio,email,latitude,longitude,userInterestProfiles
-gcIPbK6kb1T5qEVVzN2xUlkhiL53,tuan1062001,Tuân Pham10,https://firebasestorage.googleapis.com/v0/b/social-app-5e237.appspot.com/o/uploads%2F1697821130380.jpg?alt=media&token=beee1075-59d4-4e8c-811a-459020f297db,hello there..aaa,tuanprokt44@gmail.com,20.981002135154935,105.78731967456642,"[{'id': 26, 'tourInterest': {'id': 1, 'name': 'Du lịch biển'}}, {'id': 27, 'tourInterest': {'id': 2, 'name': 'Thám hiểm rừng núi'}}, {'id': 28, 'tourInterest': {'id': 5, 'name': 'Thiên nhiên và cảnh đẹp'}}]"
+id,interest_id,user_id
+57,1 ,yLtUpaKktZWiUFv9PALw75sRCex2 
+58,5 ,yLtUpaKktZWiUFv9PALw75sRCex2 
+59,8 ,yLtUpaKktZWiUFv9PALw75sRCex2 
+60,9 ,yLtUpaKktZWiUFv9PALw75sRCex2 
+61,1 ,gcIPbK6kb1T5qEVVzN2xUlkhiL53 
+62,3 ,gcIPbK6kb1T5qEVVzN2xUlkhiL53 
+63,5 ,gcIPbK6kb1T5qEVVzN2xUlkhiL53 
+64,15 ,gcIPbK6kb1T5qEVVzN2xUlkhiL53 
+65,3 ,2tbOuWnwloNhXxTPrkeebBOJiBk1 
+66,4 ,2tbOuWnwloNhXxTPrkeebBOJiBk1 
+67,7 ,2tbOuWnwloNhXxTPrkeebBOJiBk1 
+68,6 ,EjdJpyTQK3XixFmPP9cXrCNuuay2 
+69,2 ,EjdJpyTQK3XixFmPP9cXrCNuuay2 
+70,11 ,n7kvXHm6Q2Ym7nSYSoCfreh9xDy2 
+71,12 ,n7kvXHm6Q2Ym7nSYSoCfreh9xDy2 
+72,13 ,n7kvXHm6Q2Ym7nSYSoCfreh9xDy2 
+73,14 ,VqHBWUQ3mXeRpT2K9VsxWiJQDdY2 
+74,12 ,VqHBWUQ3mXeRpT2K9VsxWiJQDdY2 
+75,9 ,VqHBWUQ3mXeRpT2K9VsxWiJQDdY2
+76,3 ,YrqdwzMXb9aotGRQf7IPhkvCaBF2 
+77,4 ,YrqdwzMXb9aotGRQf7IPhkvCaBF2 
+78,6 ,YrqdwzMXb9aotGRQf7IPhkvCaBF2 
+79,2 ,EjdJpyTQK3XixFmPP9cXrCNuuay2 
+80,10 ,EjdJpyTQK3XixFmPP9cXrCNuuay2 
+81,11,EjdJpyTQK3XixFmPP9cXrCNuuay2
