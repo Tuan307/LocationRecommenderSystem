@@ -3,6 +3,7 @@
 from django.http import JsonResponse
 import requests
 import pandas as pd
+import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from sklearn.metrics.pairwise import cosine_similarity
@@ -92,7 +93,8 @@ def recommend_cities(user_data, city_data):
 def recommendation(request,userId):
     user_data = get_user_data(userId)
     city_data = get_travel_data()
-    test_set = [158, 159, 160,157]
+    test = [156,157,158,159,160,161,162,252,253,254,255,256,257,258,259,260,261,263,264,265,266]
+    test_set = np.random.choice(test, size=10, replace=False)
     precision, recall, f_measure = evaluate_recommendations(user_data, city_data, test_set)
     print(precision)
     print(recall)
